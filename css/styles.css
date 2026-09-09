@@ -14,3 +14,13 @@
 .nav-dropdown-menu a{display:block;padding:10px 12px!important;border-radius:10px!important}
 .nav-dropdown-menu a:hover,.nav-dropdown-menu a.active{background:var(--mint);color:var(--green)}
 @media(max-width:900px){.nav-dropdown{width:100%}.nav-dropdown>summary{display:block;width:100%}.nav-dropdown-menu{position:static;min-width:0;box-shadow:none;border:0;border-left:2px solid var(--line);border-radius:0;margin:4px 0 4px 10px;padding:2px 0 2px 8px}.nav-dropdown-menu a{padding:8px 10px!important}}
+
+/* Patient-first information hierarchy */
+.simple-heading{align-items:center}.simple-heading h2{font-size:clamp(1.8rem,3vw,2.7rem)}
+.quick-grid-four{grid-template-columns:repeat(4,1fr)}
+.topic-hero-visual{padding:58px 0 48px}.topic-hero-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:46px;align-items:center}.topic-hero-media{position:relative}.topic-hero-media img{width:100%;height:390px;object-fit:cover;border-radius:28px;box-shadow:var(--shadow);background:#edf3ee}.topic-image-note{position:absolute;left:-20px;bottom:20px;max-width:260px;background:white;border:1px solid var(--line);border-radius:16px;padding:13px 15px;font-size:.84rem;font-weight:700;box-shadow:var(--shadow)}
+.patient-start{padding:34px 0 54px;background:#f4f8f5;border-bottom:1px solid var(--line)}.start-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.start-card{background:white;border:1px solid var(--line);border-radius:18px;padding:20px;display:grid;grid-template-columns:34px 1fr;gap:12px;align-items:start}.start-card span{width:30px;height:30px;border-radius:50%;display:grid;place-items:center;background:var(--green);color:white;font-weight:800}.start-card p{margin:1px 0 0;color:#445148;font-weight:650;line-height:1.5}
+.plain-label{font-size:.72rem;font-weight:850;letter-spacing:.12em;color:var(--green);margin-bottom:7px}.food-box-label{font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;font-weight:850;color:var(--green);margin-bottom:8px}.food-choose{background:#eaf5ef}.food-limit{background:#f7f1e7}.why-later{padding-top:12px;border-top:1px solid var(--line)}
+@media(max-width:1050px){.quick-grid-four{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:900px){.topic-hero-grid{grid-template-columns:1fr}.topic-hero-media{max-width:650px}.topic-hero-media img{height:320px}.topic-image-note{left:14px}.start-grid{grid-template-columns:1fr}.topic-hero-visual .actions{margin-bottom:6px}}
+@media(max-width:560px){.quick-grid-four{grid-template-columns:1fr}.topic-hero-media img{height:240px}.topic-image-note{position:static;margin-top:10px;max-width:none}.patient-start{padding-top:28px}.start-card{padding:16px}}
