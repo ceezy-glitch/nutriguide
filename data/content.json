@@ -1,0 +1,591 @@
+{
+  "site": {
+    "title": "NutriGuide",
+    "tagline": "Food choices, explained for your health",
+    "about": "NutriGuide is a patient education resource that explains how everyday food choices can affect common health conditions, with practical next steps and links to trusted medical sources.",
+    "reviewed": "September 2026"
+  },
+  "home": {
+    "heroTitle": "Eat with purpose. Understand what food is doing for your health.",
+    "heroSubtitle": "A practical guide to nutrition, weight, and lifestyle\u2014showing how everyday choices can affect blood pressure, A1C, cholesterol, digestion, joints, kidneys, bones, and liver health.",
+    "topics": [
+      {
+        "icon": "\u2665",
+        "title": "Blood Pressure",
+        "description": "See how sodium, potassium, weight, and the DASH eating pattern affect blood pressure.",
+        "link": "blood-pressure.html",
+        "key": "bloodPressure"
+      },
+      {
+        "icon": "\u2197",
+        "title": "Blood Sugar & Diabetes",
+        "description": "Learn how carbohydrate quality, fiber, portions, activity, and weight affect glucose control.",
+        "link": "diabetes.html",
+        "key": "diabetes"
+      },
+      {
+        "icon": "\u25ce",
+        "title": "Cholesterol",
+        "description": "Understand saturated fat, soluble fiber, unsaturated fats, and heart-healthy eating patterns.",
+        "link": "cholesterol.html",
+        "key": "cholesterol"
+      },
+      {
+        "icon": "\u25cc",
+        "title": "Gut & Digestion",
+        "description": "Build a gut-friendly pattern with fiber, fluids, variety, and gradual changes.",
+        "link": "gut-health.html",
+        "key": "gutHealth"
+      },
+      {
+        "icon": "\u25c7",
+        "title": "Weight & Joint Health",
+        "description": "Understand how weight and food quality can affect mobility, inflammation, and knee osteoarthritis.",
+        "link": "weight-joints.html",
+        "key": "weightJoints"
+      },
+      {
+        "icon": "\u2248",
+        "title": "Kidney Health",
+        "description": "Learn why sodium, protein, potassium, and phosphorus may matter in kidney disease.",
+        "link": "kidney-health.html",
+        "key": "kidneyHealth"
+      },
+      {
+        "icon": "\u25b3",
+        "title": "Bone Health",
+        "description": "Learn the roles of calcium, vitamin D, protein, and resistance exercise in strong bones.",
+        "link": "bone-health.html",
+        "key": "boneHealth"
+      },
+      {
+        "icon": "\u25d2",
+        "title": "Fatty Liver",
+        "description": "See how weight, added sugars, fat quality, and activity affect metabolic fatty liver disease.",
+        "link": "liver-health.html",
+        "key": "liverHealth"
+      }
+    ]
+  },
+  "topics": {
+    "bloodPressure": {
+      "pageTitle": "Blood Pressure & Heart Health",
+      "kicker": "HEART HEALTH",
+      "intro": "What you eat can meaningfully affect blood pressure. The strongest evidence supports an overall DASH-style eating pattern, less sodium, more potassium-rich foods when medically appropriate, regular activity, and weight management when needed.",
+      "why": [
+        {
+          "title": "Too much sodium can raise blood pressure",
+          "text": "Sodium pulls water into the bloodstream. In people who are salt-sensitive, this can increase blood volume and pressure. The DASH-Sodium trial showed lower blood pressure as sodium intake fell, especially when paired with the DASH diet.",
+          "source": "DASH-Sodium trial",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJM200101043440101"
+        },
+        {
+          "title": "DASH works as an eating pattern",
+          "text": "DASH emphasizes vegetables, fruit, whole grains, beans, nuts, low-fat dairy, fish and poultry while limiting highly processed foods, sweets and saturated fat. In the original DASH trial, the combination diet reduced blood pressure even without weight loss.",
+          "source": "DASH trial summary",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10450292/"
+        },
+        {
+          "title": "Potassium can counter some effects of sodium",
+          "text": "Potassium-rich foods can help the body excrete sodium and support blood vessel relaxation. People with kidney disease or certain medications should ask a clinician before deliberately increasing potassium or using potassium-based salt substitutes.",
+          "source": "American Heart Association",
+          "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/potassium"
+        }
+      ],
+      "actions": [
+        "Read the Nutrition Facts label and compare sodium between similar foods.",
+        "Cook more meals from basic ingredients; packaged, prepared, and restaurant foods are common sodium sources.",
+        "Build meals around vegetables or fruit, whole grains, beans, fish or lean protein, and unsalted nuts.",
+        "Use herbs, garlic, citrus, vinegar, pepper, and spices for flavor before reaching for salt.",
+        "If you have high blood pressure, ask whether home blood-pressure monitoring and a DASH-style plan fit your treatment."
+      ],
+      "foods": [
+        [
+          "Choose more often",
+          "Fresh/frozen vegetables without sauce; fruit; beans; oats and whole grains; unsalted nuts; fish; plain yogurt."
+        ],
+        [
+          "Limit more often",
+          "Processed meats; instant noodles; chips; salty sauces; canned soups; heavily salted restaurant meals."
+        ]
+      ],
+      "references": [
+        {
+          "title": "2025 AHA/ACC High Blood Pressure Guideline",
+          "type": "Guideline",
+          "url": "https://professional.heart.org/en/science-news/2025-high-blood-pressure-guideline/top-things-to-know"
+        },
+        {
+          "title": "DASH-Sodium randomized trial \u2014 NEJM",
+          "type": "Study",
+          "url": "https://www.nejm.org/doi/full/10.1056/NEJM200101043440101"
+        },
+        {
+          "title": "Original DASH trial summary \u2014 PubMed",
+          "type": "Study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10450292/"
+        },
+        {
+          "title": "American Heart Association: potassium and blood pressure",
+          "type": "Patient resource",
+          "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/sodium/potassium"
+        }
+      ],
+      "warning": null
+    },
+    "diabetes": {
+      "pageTitle": "Blood Sugar & Diabetes Risk",
+      "kicker": "METABOLIC HEALTH",
+      "intro": "Food affects how quickly glucose enters the bloodstream, but diabetes nutrition is not about banning one nutrient. Current guidance emphasizes individualized eating patterns, higher-quality carbohydrates, fiber-rich foods, appropriate portions, activity, and sustainable weight management when indicated.",
+      "why": [
+        {
+          "title": "Carbohydrate quality matters",
+          "text": "Whole grains, beans, vegetables, and whole fruit provide fiber and are generally more filling than refined grains and sugary drinks. Diabetes guidance does not identify one ideal carbohydrate, protein, and fat ratio for everyone.",
+          "source": "ADA Standards of Care 2026",
+          "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S50/163924/3-Prevention-or-Delay-of-Diabetes-and-Associated"
+        },
+        {
+          "title": "Lifestyle changes can prevent or delay type 2 diabetes",
+          "text": "In the Diabetes Prevention Program, a structured lifestyle intervention targeting about 7% weight loss and at least 150 minutes of activity per week reduced diabetes incidence by 58% in high-risk adults.",
+          "source": "Diabetes Prevention Program",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12453955/"
+        },
+        {
+          "title": "There is more than one healthy eating pattern",
+          "text": "Mediterranean-style, DASH, plant-forward, and some lower-carbohydrate approaches can all be reasonable depending on preferences, medications, metabolic goals, and other health conditions.",
+          "source": "ADA Standards of Care 2026",
+          "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S50/163924/3-Prevention-or-Delay-of-Diabetes-and-Associated"
+        }
+      ],
+      "actions": [
+        "Replace sugary drinks with water, unsweetened tea, or another unsweetened option most of the time.",
+        "Choose high-fiber carbohydrates such as beans, lentils, oats, whole grains, vegetables, and whole fruit.",
+        "Pair carbohydrate foods with protein, healthy fat, or fiber to make meals more filling.",
+        "Keep portions consistent if you use insulin or medicines that can cause low blood sugar; medication timing matters.",
+        "If you have prediabetes or excess weight, ask about a structured Diabetes Prevention Program or dietitian referral."
+      ],
+      "foods": [
+        [
+          "Build around",
+          "Non-starchy vegetables; beans; lentils; intact whole grains; whole fruit; fish; eggs; tofu; unsweetened dairy."
+        ],
+        [
+          "Use strategically",
+          "Desserts; sweetened drinks; large portions of refined bread, rice, cereal, crackers, and pastries."
+        ]
+      ],
+      "references": [
+        {
+          "title": "ADA Standards of Care in Diabetes \u2014 2026",
+          "type": "Guideline",
+          "url": "https://diabetesjournals.org/care/article/49/Supplement_1/S50/163924/3-Prevention-or-Delay-of-Diabetes-and-Associated"
+        },
+        {
+          "title": "Diabetes Prevention Program lifestyle intervention \u2014 PubMed",
+          "type": "Study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/12453955/"
+        },
+        {
+          "title": "NIDDK: Healthy Living with Diabetes",
+          "type": "Patient resource",
+          "url": "https://www.niddk.nih.gov/health-information/diabetes/overview/healthy-living-with-diabetes"
+        }
+      ],
+      "warning": "If you take insulin or a sulfonylurea, major diet changes can increase the risk of low blood sugar. Coordinate changes with your care team."
+    },
+    "cholesterol": {
+      "pageTitle": "Cholesterol & Cardiovascular Risk",
+      "kicker": "HEART HEALTH",
+      "intro": "LDL cholesterol contributes to plaque formation in arteries. Diet is only one part of cholesterol management, but replacing saturated fat with unsaturated fat, eating more soluble fiber, and following a heart-healthy pattern can improve risk factors.",
+      "why": [
+        {
+          "title": "Saturated fat can raise LDL cholesterol",
+          "text": "Foods high in saturated fat include fatty meats, butter, full-fat dairy, coconut oil, and palm oil. Replacing saturated fat with unsaturated fats is more helpful than simply adding \u201chealthy\u201d foods while keeping saturated fat high.",
+          "source": "American Heart Association",
+          "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats"
+        },
+        {
+          "title": "Soluble fiber helps lower cholesterol absorption",
+          "text": "Oats, barley, beans, lentils, fruit, and some seeds provide soluble fiber. NHLBI includes soluble fiber as a core part of its Therapeutic Lifestyle Changes approach for lowering LDL cholesterol.",
+          "source": "NHLBI TLC",
+          "url": "https://www.nhlbi.nih.gov/health/TLC-Therapeutic-Lifestyle-Changes-Lower-Cholesterol"
+        },
+        {
+          "title": "Overall dietary pattern matters",
+          "text": "In the PREDIMED trial, adults at high cardiovascular risk assigned to Mediterranean diets supplemented with extra-virgin olive oil or nuts had fewer major cardiovascular events than the control group.",
+          "source": "PREDIMED trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29897866/"
+        }
+      ],
+      "actions": [
+        "Swap butter, coconut oil, and fatty meats more often for olive/canola oil, nuts, seeds, fish, beans, or lean protein.",
+        "Add a soluble-fiber food daily: oatmeal, beans, lentils, barley, apples, citrus, or psyllium if your clinician says it is appropriate.",
+        "Choose minimally processed foods most of the time and keep trans fat as low as possible.",
+        "If triglycerides are high, pay attention to excess calories, alcohol, refined starches, and added sugars.",
+        "Do not assume diet replaces medication. Very high LDL or high cardiovascular risk may require medication even with an excellent diet."
+      ],
+      "foods": [
+        [
+          "Helpful swaps",
+          "Butter \u2192 olive oil; sausage \u2192 beans/fish; refined cereal \u2192 oats; chips \u2192 unsalted nuts."
+        ],
+        [
+          "Think pattern",
+          "Vegetables + fruit + whole grains + legumes + nuts + fish/lean proteins + mostly unsaturated oils."
+        ]
+      ],
+      "references": [
+        {
+          "title": "NHLBI Therapeutic Lifestyle Changes",
+          "type": "Patient resource",
+          "url": "https://www.nhlbi.nih.gov/health/TLC-Therapeutic-Lifestyle-Changes-Lower-Cholesterol"
+        },
+        {
+          "title": "AHA: Saturated Fats",
+          "type": "Patient resource",
+          "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/saturated-fats"
+        },
+        {
+          "title": "PREDIMED trial \u2014 PubMed",
+          "type": "Study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/29897866/"
+        }
+      ],
+      "warning": null
+    },
+    "gutHealth": {
+      "pageTitle": "Gut & Digestive Health",
+      "kicker": "DIGESTION",
+      "intro": "A healthy diet can support regular bowel movements and the community of microbes living in the gut. For most people, the most practical starting points are adequate fiber, fluids, food variety, and gradual changes that your digestive system can tolerate.",
+      "why": [
+        {
+          "title": "Fiber adds bulk and supports regularity",
+          "text": "Adults generally need about 22\u201334 grams of fiber per day depending on age and sex. Increasing fiber too quickly can cause bloating, so build up gradually.",
+          "source": "NIDDK",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
+        },
+        {
+          "title": "Fiber works better with enough fluid",
+          "text": "Fluids help fiber soften stool and move through the digestive tract. People with heart failure, kidney disease, or another fluid restriction should follow their clinician\u2019s fluid plan instead.",
+          "source": "NIDDK",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
+        },
+        {
+          "title": "Variety matters more than chasing a single \u201csuperfood\u201d",
+          "text": "A varied plant-forward diet supplies different fibers and nutrients. Fermented foods can be part of a healthy pattern, but they are not a cure-all and may not be tolerated by everyone.",
+          "source": "NIDDK constipation guidance",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation"
+        }
+      ],
+      "actions": [
+        "Increase fiber gradually \u2014 for example, add one serving of beans, oats, vegetables, or fruit at a time.",
+        "Drink enough fluids for your medical situation, especially when increasing fiber.",
+        "Aim for a variety of plant foods across the week rather than relying on one supplement or \u201cgut health\u201d product.",
+        "Keep a short food-and-symptom log if certain foods consistently trigger bloating, diarrhea, reflux, or pain.",
+        "Seek medical care for blood in stool, black stool, persistent vomiting, unexplained weight loss, severe pain, or a major persistent change in bowel habits."
+      ],
+      "foods": [
+        [
+          "Fiber-rich foods",
+          "Beans; lentils; oats; barley; berries; pears; apples; vegetables; nuts; seeds; whole grains."
+        ],
+        [
+          "Increase slowly",
+          "Large jumps in fiber, sugar alcohols, or certain fermentable foods can worsen gas and bloating in some people."
+        ]
+      ],
+      "references": [
+        {
+          "title": "NIDDK: Eating, Diet & Nutrition for Constipation",
+          "type": "Patient resource",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition"
+        },
+        {
+          "title": "NIDDK: Constipation overview",
+          "type": "Patient resource",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation"
+        }
+      ],
+      "warning": null
+    },
+    "weightJoints": {
+      "pageTitle": "Weight, Mobility & Joint Health",
+      "kicker": "MUSCULOSKELETAL HEALTH",
+      "intro": "Nutrition affects joints indirectly through body weight, muscle health, and the overall quality of the diet. For people with overweight or obesity and knee osteoarthritis, intentional weight loss combined with exercise can reduce pain and improve function.",
+      "why": [
+        {
+          "title": "Body weight changes the load across weight-bearing joints",
+          "text": "For people with knee osteoarthritis and excess weight, reducing body weight can reduce knee loading. Weight is not the only cause of arthritis, but it is a modifiable contributor for many people.",
+          "source": "IDEA randomized trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24065013/"
+        },
+        {
+          "title": "Diet plus exercise can outperform exercise alone",
+          "text": "In the 18-month IDEA trial, the diet-plus-exercise group lost more weight and reported less pain and better function than the exercise-only group.",
+          "source": "IDEA randomized trial",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24065013/"
+        },
+        {
+          "title": "Small weight changes can still matter for metabolic health",
+          "text": "For people above a healthy weight, even modest weight loss can improve blood pressure, cholesterol, and blood sugar. A sustainable plan matters more than a crash diet.",
+          "source": "CDC",
+          "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"
+        }
+      ],
+      "actions": [
+        "Prioritize a slow, sustainable calorie reduction rather than eliminating whole food groups.",
+        "Get protein across the day to help preserve muscle while losing weight.",
+        "Combine nutrition changes with strengthening and low-impact aerobic activity that your joints tolerate.",
+        "Choose meals built around vegetables/fruit, protein, and high-fiber carbohydrates to improve fullness.",
+        "If pain limits activity, ask about physical therapy, an arthritis exercise program, or a dietitian referral rather than trying to \u201cpush through.\u201d"
+      ],
+      "foods": [
+        [
+          "Support muscle",
+          "Fish; poultry; eggs; Greek yogurt; cottage cheese; tofu; beans; lentils."
+        ],
+        [
+          "Support fullness",
+          "Vegetables; whole fruit; beans; soups with low sodium; whole grains; minimally processed foods."
+        ]
+      ],
+      "references": [
+        {
+          "title": "IDEA randomized clinical trial \u2014 JAMA/PubMed",
+          "type": "Study",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/24065013/"
+        },
+        {
+          "title": "CDC: Steps for Losing Weight",
+          "type": "Patient resource",
+          "url": "https://www.cdc.gov/healthy-weight-growth/losing-weight/index.html"
+        }
+      ],
+      "warning": null
+    },
+    "kidneyHealth": {
+      "pageTitle": "Kidney Health & Nutrition",
+      "kicker": "KIDNEY HEALTH",
+      "intro": "Kidney nutrition is highly individualized. Sodium is commonly limited, while protein, potassium, phosphorus, and fluid needs depend on kidney function, lab results, medications, and whether a person is on dialysis.",
+      "why": [
+        {
+          "title": "Sodium can worsen blood pressure and fluid retention",
+          "text": "When kidney function is reduced, excess sodium can contribute to swelling and high blood pressure. Many people with CKD are advised to reduce sodium, but the exact target should come from their care team.",
+          "source": "NIDDK",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+        },
+        {
+          "title": "More protein is not always better",
+          "text": "Protein creates waste products that the kidneys remove. Some people with CKD need a moderate protein intake, while people on dialysis may have different protein needs.",
+          "source": "NIDDK",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+        },
+        {
+          "title": "Potassium and phosphorus restrictions are not universal",
+          "text": "Some people with CKD develop high potassium or phosphorus, while others do not. Restricting these nutrients unnecessarily can make the diet harder and less nutritious.",
+          "source": "NIDDK",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+        }
+      ],
+      "actions": [
+        "Choose more foods prepared from scratch and compare sodium on labels.",
+        "Do not start a high-protein diet, potassium supplement, or potassium-based salt substitute without checking whether it fits your kidney function and medications.",
+        "If your clinician says phosphorus is high, ask specifically about phosphate additives on ingredient lists.",
+        "Bring your lab results and a typical day of eating to a renal dietitian for individualized advice.",
+        "Keep taking prescribed blood-pressure and diabetes medicines; nutrition works alongside medical treatment."
+      ],
+      "foods": [
+        [
+          "Usually helpful",
+          "Fresh foods; lower-sodium choices; home-cooked meals; individualized portions of protein."
+        ],
+        [
+          "Needs personalization",
+          "Potassium, phosphorus, protein, and fluids \u2014 the right amount varies with kidney function and labs."
+        ]
+      ],
+      "references": [
+        {
+          "title": "NIDDK: Healthy Eating for Adults with CKD",
+          "type": "Patient resource",
+          "url": "https://www.niddk.nih.gov/health-information/kidney-disease/chronic-kidney-disease-ckd/healthy-eating-adults-chronic-kidney-disease"
+        },
+        {
+          "title": "NIDDK: Slowing CKD progression and reducing complications",
+          "type": "Clinical resource",
+          "url": "https://www.niddk.nih.gov/health-information/professionals/clinical-tools-patient-management/kidney-disease/identify-manage-patients/manage-ckd/slow-progression-reduce-complications"
+        }
+      ],
+      "warning": "If you have chronic kidney disease, do not use generic \u201cheart healthy\u201d potassium advice without checking whether potassium is safe for you."
+    },
+    "boneHealth": {
+      "pageTitle": "Bone Health & Nutrition",
+      "kicker": "BONE HEALTH",
+      "intro": "Strong bones need enough calcium, vitamin D, protein, and mechanical loading from weight-bearing and resistance exercise. Bone health is built over decades, and nutrition becomes especially important when osteoporosis risk rises.",
+      "why": [
+        {
+          "title": "Calcium is a structural mineral in bone",
+          "text": "If calcium intake is too low, the body can pull calcium from bone to maintain other essential functions. Food sources include dairy, fortified alternatives, tofu made with calcium, and some greens and fish with edible bones.",
+          "source": "NIAMS",
+          "url": "https://www.niams.nih.gov/health-topics/calcium-and-vitamin-d-important-bone-health"
+        },
+        {
+          "title": "Vitamin D helps absorb calcium",
+          "text": "Vitamin D supports calcium absorption. Needs vary, and people at risk of deficiency may need a blood test or supplement recommended by a clinician.",
+          "source": "NIAMS",
+          "url": "https://www.niams.nih.gov/health-topics/calcium-and-vitamin-d-important-bone-health"
+        },
+        {
+          "title": "Protein and exercise support the whole musculoskeletal system",
+          "text": "Adequate protein supports muscle and bone, while resistance and weight-bearing activity help maintain bone strength and reduce fall risk.",
+          "source": "NIAMS osteoporosis guidance",
+          "url": "https://www.niams.nih.gov/health-topics/osteoporosis/diagnosis-treatment-and-steps-to-take"
+        }
+      ],
+      "actions": [
+        "Include a calcium-rich food several times per day, adjusting for your age and dietary needs.",
+        "If you avoid dairy, look for fortified soy milk or other alternatives with meaningful calcium and vitamin D.",
+        "Get adequate protein rather than relying only on calcium supplements.",
+        "Add resistance and weight-bearing exercise if medically safe for you.",
+        "Ask about vitamin D testing, bone-density screening, or supplementation if you have osteoporosis risk factors."
+      ],
+      "foods": [
+        [
+          "Calcium sources",
+          "Milk/yogurt; fortified soy milk; calcium-set tofu; canned salmon/sardines with bones; selected greens."
+        ],
+        [
+          "Bone-supporting habits",
+          "Adequate protein; resistance exercise; weight-bearing activity; avoiding smoking; limiting excess alcohol."
+        ]
+      ],
+      "references": [
+        {
+          "title": "NIAMS: Calcium and Vitamin D",
+          "type": "Patient resource",
+          "url": "https://www.niams.nih.gov/health-topics/calcium-and-vitamin-d-important-bone-health"
+        },
+        {
+          "title": "NIAMS: Osteoporosis \u2014 treatment and steps to take",
+          "type": "Patient resource",
+          "url": "https://www.niams.nih.gov/health-topics/osteoporosis/diagnosis-treatment-and-steps-to-take"
+        }
+      ],
+      "warning": null
+    },
+    "liverHealth": {
+      "pageTitle": "Fatty Liver & Metabolic Health",
+      "kicker": "LIVER HEALTH",
+      "intro": "Metabolic dysfunction-associated steatotic liver disease (MASLD, previously often called NAFLD) is strongly linked with insulin resistance and excess body fat. Food quality, gradual weight loss when needed, and regular activity are key parts of management.",
+      "why": [
+        {
+          "title": "Weight loss can reduce liver fat",
+          "text": "For people with excess weight and fatty liver disease, gradual weight loss can reduce liver fat. Greater losses may be needed to improve liver inflammation and scarring.",
+          "source": "NIDDK",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"
+        },
+        {
+          "title": "Fat quality matters",
+          "text": "NIDDK recommends replacing saturated and trans fats with unsaturated fats and choosing a generally healthy dietary pattern rather than relying on detoxes or supplements.",
+          "source": "NIDDK",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition"
+        },
+        {
+          "title": "Lower-glycemic, minimally processed foods can support metabolic health",
+          "text": "Vegetables, whole fruit, whole grains, legumes, nuts, and unsaturated fats can help build a dietary pattern that supports weight and metabolic health.",
+          "source": "NIDDK",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition"
+        }
+      ],
+      "actions": [
+        "Cut back on sugar-sweetened drinks and large amounts of added sugar.",
+        "If weight loss is appropriate, aim for gradual, sustainable loss rather than crash dieting.",
+        "Favor unsaturated fats such as olive oil, nuts, seeds, and fish over large amounts of saturated fat.",
+        "Exercise regularly; physical activity can help even without major weight loss.",
+        "Avoid \u201cliver detox\u201d supplements unless your clinician specifically recommends them; some supplements can injure the liver."
+      ],
+      "foods": [
+        [
+          "Build around",
+          "Vegetables; whole fruit; legumes; whole grains; fish; nuts; seeds; olive oil; minimally processed foods."
+        ],
+        [
+          "Reduce",
+          "Sugary drinks; frequent sweets; excess calories; heavy alcohol use; highly processed foods high in saturated fat."
+        ]
+      ],
+      "references": [
+        {
+          "title": "NIDDK: Eating, Diet & Nutrition for NAFLD/NASH",
+          "type": "Patient resource",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/eating-diet-nutrition"
+        },
+        {
+          "title": "NIDDK: Treatment for NAFLD/NASH",
+          "type": "Patient resource",
+          "url": "https://www.niddk.nih.gov/health-information/liver-disease/nafld-nash/treatment"
+        }
+      ],
+      "warning": null
+    }
+  },
+  "resources": {
+    "categories": [
+      {
+        "name": "Trusted patient resources",
+        "links": [
+          {
+            "title": "American Heart Association",
+            "description": "Blood pressure, cholesterol, heart-healthy eating, sodium, fats, and cardiovascular prevention.",
+            "url": "https://www.heart.org/"
+          },
+          {
+            "title": "NIDDK \u2014 National Institute of Diabetes and Digestive and Kidney Diseases",
+            "description": "Patient education on diabetes, digestive disease, kidney disease, and metabolic liver disease.",
+            "url": "https://www.niddk.nih.gov/health-information"
+          },
+          {
+            "title": "NHLBI \u2014 National Heart, Lung, and Blood Institute",
+            "description": "Heart-health guidance including Therapeutic Lifestyle Changes for cholesterol.",
+            "url": "https://www.nhlbi.nih.gov/health"
+          },
+          {
+            "title": "NIAMS \u2014 Bone Health & Osteoporosis",
+            "description": "NIH patient information about calcium, vitamin D, exercise, osteoporosis, and bone health.",
+            "url": "https://www.niams.nih.gov/health-topics/bone-health-and-osteoporosis"
+          },
+          {
+            "title": "CDC Healthy Weight",
+            "description": "Evidence-based guidance for gradual, sustainable weight management and activity.",
+            "url": "https://www.cdc.gov/healthy-weight-growth/"
+          }
+        ]
+      },
+      {
+        "name": "Landmark studies highlighted on this site",
+        "links": [
+          {
+            "title": "DASH-Sodium Trial",
+            "description": "Randomized trial showing blood-pressure reductions with lower sodium and the DASH dietary pattern.",
+            "url": "https://www.nejm.org/doi/full/10.1056/NEJM200101043440101"
+          },
+          {
+            "title": "Diabetes Prevention Program",
+            "description": "Lifestyle intervention targeting weight loss and activity reduced progression to type 2 diabetes in high-risk adults.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/12453955/"
+          },
+          {
+            "title": "PREDIMED",
+            "description": "Mediterranean dietary patterns reduced major cardiovascular events in adults at high cardiovascular risk.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/29897866/"
+          },
+          {
+            "title": "IDEA Trial",
+            "description": "Diet-induced weight loss plus exercise improved pain and function in adults with knee osteoarthritis and excess weight.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/24065013/"
+          }
+        ]
+      }
+    ]
+  }
+}
