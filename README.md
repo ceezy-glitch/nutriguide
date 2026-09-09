@@ -21,3 +21,6 @@ Clinical guidance changes. Re-review medical claims and links periodically and b
 
 ## Lifestyle & Weight update
 A new `lifestyle.html` page includes an evidence-backed weight-loss guide, Mifflin-St Jeor calorie calculator, health-outcome explanations, practical food modifications, example purchasable tools, and primary/trusted source links. The visual refresh adds responsive photography throughout the home and lifestyle pages.
+
+## Repository connection test
+ChatGPT write access confirmed on September 9, 2026.
